@@ -1,0 +1,128 @@
+  body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+    .page-1 {
+      background-color: #ffffff; /* Original light grey */
+    }
+
+    .page-2 {
+      background-color: #d1e0e0; /* A different color, e.g., light blue-grey */
+    }
+
+    .page-3 {
+      background-color: #e0d1d1; /* A third color, e.g., light red-grey */
+    }
+
+    .page-2 .accordion {
+      background-color: #c0d1d1; /* A slightly darker blue-grey */
+      box-shadow: 5px 5px 10px #adbebe,
+                  -5px -5px 10px #f5ffff;
+    }
+
+    .container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    }
+
+    h1 {
+    text-align: center;
+    color: #555;
+    }
+
+    nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    }
+
+    nav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    padding: 15px 25px;
+    border-radius: 12px;
+    background: transparent;
+    box-shadow: 5px 5px 10px #bebebe,
+                -5px -5px 10px #ffffff;
+    transition: all 0.2s ease-in-out;
+    }
+
+    nav a:hover,
+    nav a.active {
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 10px #bebebe,
+                inset -5px -5px 10px #ffffff;
+    color: #007bff;
+    }
+
+    .accordion {
+    background: transparent;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px #bebebe,
+                -5px -5px 10px #ffffff;
+    transition: all 0.2s ease-in-out;
+    }
+
+    .accordion:hover,
+    .accordion.active {
+    box-shadow: inset 5px 5px 10px #bebebe,
+                inset -5px -5px 10px #ffffff;
+    }
+
+    .panel {
+    padding: 0 18px;
+    background: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    }
+
+    .grid-container {
+    display: grid;
+    place-content: center;
+    gap: 20px;
+    padding: 20px 0;
+    }
+
+    .grid-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 5px 5px 10px #bebebe,
+                -5px -5px 10px #ffffff;
+    }
+
+  .grid-item {
+    background: #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px #bebebe,
+                -5px -5px 10px #ffffff;
+  }
+
+  .grid-item p {
+    margin: 0;
+    padding: 12px 15px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+  }
